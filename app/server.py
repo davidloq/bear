@@ -9,10 +9,10 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://www.onedrive.live.com/download?cid=3B0D80A5312DC7A4&resid=3B0D80A5312DC7A4%217508&authkey=APiHBDaNaolAk60'
 export_file_name = 'export.pkl'
 
-classes = ['black1', 'grizzly1', 'teddys1']
+classes = ['black', 'grizzly', 'teddys']
 path = Path(__file__).parent
 
 app = Starlette()
